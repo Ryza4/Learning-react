@@ -1,4 +1,4 @@
-export const CoursesSection = {
+export const CourseSection = {
     content:` <p class="deskripsi">Kamu akan merasakan peningkatan diri</p>
                 <h2>dengan metode e-learning</h2>
                 <p>Perdalam keterampilan baru dan maksimalkan potensi Anda. Bergabunglah dengan komunitas belajar yang dinamis dan saksikan transformasi menakjubkan dalam diri Anda!</p>
