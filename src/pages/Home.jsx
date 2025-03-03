@@ -2,7 +2,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 import { HomeSection } from '../data/HomeSection'
-import { CoursesSection } from '../data/CourseSection'
+import { CourseSection } from '../data/CourseSection'
 import { Ptsections,Partnerlist } from '../data/Ptsections'
 
 import Parners from '../components/Partners'
@@ -25,9 +25,9 @@ function Home() {
     {/* course */}
     <section id="courses">
             <div className="kolom">
-               {parse(CoursesSection.content)}
+               {parse(CourseSection.content)}
             </div>
-            <img src= {CoursesSection.Image}/>
+            <img src= {CourseSection.Image}/>
         </section>
     {/* partner */}
     <section id="Partners">
